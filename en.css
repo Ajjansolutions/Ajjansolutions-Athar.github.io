@@ -1,0 +1,16 @@
+body{
+    background-color: #F8F0E3;
+    padding: 0px;
+    margin: 0px;
+}
+.golden-font{
+    color: #d4af37;
+}
+.white-font{
+    color: #ffff;
+}
+.styling{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
