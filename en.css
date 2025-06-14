@@ -1,31 +1,108 @@
-body{
-    background-color: #F8F0E3;
+.main{
     width: 100%;
-    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    background-color: #F8F0E3;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.doctor-img-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.logo-row-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.desktop-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Main{
-    width: 30%;
-    background-color: white;
+.doctor-image{
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+}
+.athar-doctors{
+    width: 100%;
+    background-color: #F8F0E3;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+.ad-img-box{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     padding: 30px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
-.main-text{
+.ad-img-box img{
+    border-radius: 12px;
+}
+.discrption-lines{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url(bc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description-box{
+    background-color: #F8F0E3;
+    border-radius: 12px;
     text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
-
-
-@media (max-width: 500px) {
-    .Main{
-        width: 90%;
-    }
+.description-box a{
+    text-decoration: none;
+    color: black;
 }
+.contact-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-background{
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 700px) {
+    .ad-img-box{
+        width: 80%;
+        padding: 10px;
+    }
+    
+  }
+  
